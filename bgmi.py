@@ -13,7 +13,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from telebot.apihelper import ApiTelegramException
 
 ADMIN_IDS = [7161052001]
-BOT_TOKEN = "7003192552:AAF8OLRd2cKv5T9geHnxDVKGOWWWSCQP8fo"
+BOT_TOKEN = "7227453030:AAFJ7-0MM66cY9H1Cy1LdZawmDOUtT0MsuQ"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 redeemed_keys = set()
