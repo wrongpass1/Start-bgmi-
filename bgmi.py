@@ -8,7 +8,6 @@ import asyncio
 import random
 import string
 from datetime import datetime, timedelta
-from keepalive import keep_alive
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from telebot.apihelper import ApiTelegramException
 
