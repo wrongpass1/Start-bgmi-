@@ -26,6 +26,7 @@ jobs:
       - name: Install required packages
         run: |
           pip install pyTelegramBotAPI pymongo aiohttp
+          pip install flask 
       - name: Run bgmi.py
         run: python3 bgmi.py
 
