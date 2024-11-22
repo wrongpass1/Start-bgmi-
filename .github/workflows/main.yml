@@ -26,7 +26,6 @@ jobs:
       - name: Install required packages
         run: |
           pip install pyTelegramBotAPI pymongo aiohttp
-          pip install flask 
       - name: Run sharp.py
         run: python3 sharp.py
 
