@@ -252,7 +252,7 @@ if __name__ == "__main__":
     logging.info("Starting Codespace activity keeper and Telegram bot...")
     while True:
         try:
-            bot.polling(none_stop=True:
+            bot.polling(none_stop=True)
         except Exception as e:
             logging.error(f"An error occurred while polling: {e}")
         logging.info(f"Waiting for {REQUEST_INTERVAL} seconds before the next request...")
