@@ -249,7 +249,7 @@ def handle_message(message):
 if __name__ == "__main__":
     asyncio_thread = Thread(target=start_asyncio_thread, daemon=True)
     asyncio_thread.start()
-    logging.info("Starting Codespace activity keeper and Telegram bot.\n FILE BY
+    logging.info("Starting Codespace activity keeper and Telegram bot.\n FILE BY @OneTwoThreeSK
     while True:
         try:
             bot.polling(none_stop=True:
