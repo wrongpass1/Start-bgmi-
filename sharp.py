@@ -25,7 +25,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['zoya']
 users_collection = db.users
-Sharp
+
 bot = telebot.TeleBot(TOKEN)
 REQUEST_INTERVAL = 1
 
