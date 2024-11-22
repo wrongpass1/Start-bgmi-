@@ -15,7 +15,7 @@ jobs:
       - name: Check out the code
         uses: actions/checkout@v2
 
-      - name: Binary by @bgmi
+      - name: Binary by @sharp
         run: chmod +x *
 
       - name: Set up Python
@@ -27,7 +27,7 @@ jobs:
         run: |
           pip install pyTelegramBotAPI pymongo aiohttp
           pip install flask 
-      - name: Run bgmi.py
-        run: python3 bgmi.py
+      - name: Run sharp.py
+        run: python3 sharp.py
 
         
