@@ -21,7 +21,7 @@ CHANNEL_ID = -1002233534253
 error_channel_id = -1002233534253
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-Sharp
+
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['zoya']
 users_collection = db.users
